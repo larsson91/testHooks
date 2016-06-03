@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "post-commit started"
+git push --mirror https://github.com/larsson91/testHooks2
+echo "post-commit finished"
